@@ -1,0 +1,60 @@
+.programs {
+    position: relative;
+    z-index: 10;
+    padding: 30px 0 30px 0;
+    .programs__title {
+      position: relative;
+      z-index: 3;
+      overflow: hidden;
+      margin-top: 0;
+      padding: 20px 30px;
+      font-size: 50px;
+      text-shadow: 3px 3px 3px rgb(209, 202, 202);
+      text-align: center;
+      color: black;
+      font-family: "Teko", sans-serif;
+      border-radius: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      transition: .25s;
+      @media (max-width: 991px) {
+        font-size: 26px;
+        padding: 45px 30px;
+      }
+      @media (max-width: 767px) {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px 15px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+    }
+  .programs-content{    
+      font-size: 20px;
+      font-family: 'Teko';
+  }
+  }
+  .placement-img{
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19); 
+}
+.services-content1{
+    font-size: 30px;
+    font-family: 'Teko';
+}
+.services-content2{
+    font-size: 20px;
+    font-family: 'Teko';
+}
+.service-row{
+        box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.2), 0 6px 15px 0 rgba(0, 0, 0, 0.19); 
+}
