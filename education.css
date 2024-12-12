@@ -58,11 +58,11 @@
         text-align: center;
         text-shadow: 3px 3px 3px rgb(134, 130, 130);
         @media (max-width: 991px) {
-        font-size: 30px;
+        font-size: 35px;
         padding: 45px 30px;
         }
         @media (max-width: 767px) {
-        font-size: 30px;
+        font-size: 35px;
         text-align: center;
         padding: 30px 15px;
         }
