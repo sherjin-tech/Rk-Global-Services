@@ -1,0 +1,223 @@
+.placement {
+    position: relative;
+    z-index: 10;
+    padding: 30px 0 30px 0;
+    .placement__title {
+      position: relative;
+      z-index: 3;
+      overflow: hidden;
+      margin-top: 0;
+      padding: 20px 30px;
+      font-size: 50px;
+      text-shadow: 3px 3px 3px rgb(209, 202, 202);
+      text-align: center;
+      color: black;
+      font-family: "Teko", sans-serif;
+      border-radius: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      transition: .25s;
+      @media (max-width: 991px) {
+        font-size: 26px;
+        padding: 45px 30px;
+      }
+      @media (max-width: 767px) {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px 15px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+    }
+  .placement-content{    
+      font-size: 20px;
+      font-family: 'Teko';
+  }
+  }
+.placement-img{
+        box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19); 
+}
+.edu-mission {
+    position: relative;
+    padding: 30px 0 30px 0;
+    background-image: url(./images/traveler-with-suitcase-walking-runway-3d-rendering-generative-ai_627050-425.jpg);
+    background-size: cover;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19);
+    text-shadow:4px 4px 20px white ;
+    background-repeat: no-repeat;
+    .edu-mission__title {
+        font-family: "Teko", sans-serif;
+        margin-top: 0;
+        padding: 10px 30px;
+        font-size: 50px;
+        text-align: center;
+        @media (max-width: 991px) {
+        font-size: 30px;
+        padding: 45px 30px;
+        }
+        @media (max-width: 767px) {
+        font-size: 30px;
+        text-align: center;
+        padding: 30px 15px;
+        }
+        &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+    }
+}
+.edu-mission-content{    
+    font-size: 20px;
+    box-shadow: 0 4px 40px 0 rgba(0, 0, 0, 0.2), 0 6px 60px 0 rgba(0, 0, 0, 0.19);
+    text-shadow:4px 4px 20px white ;
+    font-family: 'Teko';
+    letter-spacing: 1px;
+}
+}
+.edu-row{
+    margin-left: 15%;
+    @media (max-width: 991px) {
+        margin-left: 25px;
+        }
+        @media (max-width: 767px) {
+            margin-left: 25px;
+        }
+}
+.edu-div{
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.151);
+}
+.service {
+    position: relative;
+    z-index: 10;
+    padding: 30px 0 30px 0;
+    .service__title {
+      position: relative;
+      z-index: 3;
+      overflow: hidden;
+      margin-top: 0;
+      padding: 20px 30px;
+      font-size: 50px;
+      text-shadow: 3px 3px 3px rgb(209, 202, 202);
+      text-align: center;
+      color: black;
+      font-family: "Teko", sans-serif;
+      border-radius: 15px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      transition: .25s;
+      @media (max-width: 991px) {
+        font-size: 26px;
+        padding: 45px 30px;
+      }
+      @media (max-width: 767px) {
+        font-size: 30px;
+        text-align: center;
+        padding: 10px 15px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+    }
+    .service-content1{    
+        font-size: 30px;
+        font-family: 'Teko';
+    }
+  .service-content{    
+      font-size: 20px;
+      font-family: 'Teko';
+  }
+  }
+.destination {
+    position: relative;
+    z-index: 10;
+    padding: 30px 0 30px 0;
+    .destination__title {
+      font-family: "Teko", sans-serif;
+      margin-top: 0;
+      padding: 10px 30px;
+      font-size: 50px;
+      text-align: center;
+      @media (max-width: 991px) {
+        font-size: 30px;
+        padding: 45px 30px;
+      }
+      @media (max-width: 767px) {
+        font-size: 30px;
+        text-align: center;
+        padding: 30px 15px;
+      }
+      &:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+      }
+    }
+  .destination-text{    
+      font-size: 20px;
+      font-family: 'Teko';
+  }
+  }
+  .destination-div{
+    background-color: white;
+    padding: 60px 30px;
+    border-radius: 15px;
+  }
+  .card-res{
+    margin-left: 11%;
+    @media (max-width: 991px) {
+        margin-left: 0px;
+      }
+      @media (max-width: 767px) {
+        margin-left: 0px;
+      }
+  }
+.card-modal{
+    border: 1px solid rgb(192, 185, 185);
+    box-shadow: 5px 10px 20px rgb(172, 171, 171) inset;
+    @media (max-width: 991px) {
+        margin-top: 30px;
+      }
+      @media (max-width: 767px) {
+        margin-top: 20px 
+      }
+}
+hr{
+    border-top: 5px solid #8c8b8b;
+    opacity: 1.25 !important;
+}
